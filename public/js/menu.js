@@ -26,33 +26,34 @@
 // }
 // toggle();
 
-// toggle menu
-function toggle() {
-  const globalMenuSp = document.querySelector(".globalMenuSp");
-  const hamburger = document.querySelector(".hamburger");
-  const anchorLinks = document.querySelectorAll(".js-anchor-link");
+// // toggle menu
+// function toggle() {
+//   const globalMenuSp = document.querySelector(".globalMenuSp");
+//   const hamburger = document.querySelector(".hamburger");
+//   const anchorLinks = document.querySelectorAll(".js-anchor-link");
 
-  function toggleMenu() {
-    hamburger.classList.toggle("active");
-    globalMenuSp.classList.toggle("active");
-  }
+//   function toggleMenu() {
+//     hamburger.classList.toggle("active");
+//     globalMenuSp.classList.toggle("active");
+//   }
 
-  function removeMenu() {
-    hamburger.classList.remove("active");
-    globalMenuSp.classList.remove("active");
-  }
+//   function removeMenu() {
+//     hamburger.classList.remove("active");
+//     globalMenuSp.classList.remove("active");
+//   }
 
-  if(hamburger) {
-    hamburger.addEventListener("click", toggleMenu);
-  }
+//   if (hamburger) {
+//     hamburger.addEventListener("click", toggleMenu);
+//     alert("hit")
+//   }
 
-  if(anchorLinks) {
-    for(let anchorLink of anchorLinks) {
-      anchorLink.addEventListener("click", removeMenu);
-    }
-  }
-}
-toggle();
+//   if (anchorLinks) {
+//     for (let anchorLink of anchorLinks) {
+//       anchorLink.addEventListener("click", removeMenu);
+//     }
+//   }
+// }
+// toggle();
 
 // smooth js
 // $('.js-anchor-link').click(function (e) {
@@ -78,4 +79,35 @@ smoothScroll();
 
 // wow animation
 new WOW().init();
+
+$(document).ready(function () {
+  // experiences slide
+  $('.center').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    dots: true,
+    arrows: false,
+    responsive: [{
+      breakpoint: 1230,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        centerPadding: '40px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        arrows: false,
+        centerMode: false,
+        centerPadding: '40px',
+        slidesToShow: 1,
+        dots: false
+      }
+    }
+    ]
+  });
+});
 

@@ -9,9 +9,7 @@
                         <li class="prj-img"><img src="./img/img_nov.png" alt="Nov"></li>
                         <li class="prj-desc">
                             <h5>Nov</h5>
-                            <p>This is an advertising site for cosmetics about skin. Coding web design using HTML,
-                                CSS and added animation with JavaScript. For image exporting, used Photoshop. Also
-                                attended Japanese meeting and explained the project details to member.</p>
+                            <p>{{ __('Nov Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -25,10 +23,7 @@
                         <li class="prj-img"><img src="./img/img_share_mentor.png" alt="Share Mentor"></li>
                         <li class="prj-desc">
                             <h5>Share Mentor</h5>
-                            <p>This is a site where mentors and questioner can consult with each other. Coding web
-                                design of Admin site. System test was performed and fixed the bugs. Also,
-                                interpreted between Japanese customers and Myanmar members and created design
-                                documents.</p>
+                            <p>{{ __('Share Mentor Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -45,12 +40,7 @@
                         <li class="prj-img"><img src="./img/img_property.png" alt="Property"></li>
                         <li class="prj-desc">
                             <h5>Property Myanmar</h5>
-                            <p>
-                                This is a site where users can buy or sell their house as the real estate. Coding
-                                web design and system test was performed and fixed the bugs. For image exporting,
-                                used Photoshop. Created the SQL database and coded the search form within prices
-                                limit.
-                            </p>
+                            <p>{{ __('Property Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -67,9 +57,7 @@
                         <li class="prj-img"><img src="./img/img_shokutabi.png" alt="Shokutabi"></li>
                         <li class="prj-desc">
                             <h5>Shokutabi</h5>
-                            <p>This is a campaign site where you can make a food trip at home. Coding web design
-                                using HTML, CSS and added animation with JavaScript. For image exporting, used
-                                Photoshop. Also attended Japanese meeting and created meeting minutes</p>
+                            <p>{{ __('Shokutabi Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -83,9 +71,7 @@
                         <li class="prj-img"><img src="./img/img_bulk.png" alt="Bulk Home"></li>
                         <li class="prj-desc">
                             <h5>Bulk Home</h5>
-                            <p>This is an advertising website project for cosmetic. Coding web design using HTML,
-                                CSS and added animation with JavaScript. For image exporting, used Photoshop. Also
-                                attended Japanese meeting and explained the project details to member.</p>
+                            <p>{{ __('Bulkhome Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -99,9 +85,7 @@
                         <li class="prj-img"><img src="./img/img_maison.png" alt="Maisonginza"></li>
                         <li class="prj-desc">
                             <h5>Maison Ginza</h5>
-                            <p>The Maison Ginza is the official site for the face mask. Coding web design using
-                                HTML, CSS and added animation with JavaScript. For image exporting, used Photoshop.
-                                Also attended Japanese meeting and explained the project details to member.</p>
+                            <p>{{ __('Maison Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>
@@ -114,11 +98,8 @@
                     <ul>
                         <li class="prj-img"><img src="./img/img_nitto.png" alt="Nitto Mirai City"></li>
                         <li class="prj-desc">
-                            <h5>Maison Ginza</h5>
-                            <p>This is a site where people can ask questions for seeking jobs. Coding web design
-                                using HTML, CSS and added animation with JavaScript. For image exporting, used
-                                Photoshop. Also attended Japanese meeting and explained the project details to
-                                member.</p>
+                            <h5>Nitto Mirai City</h5>
+                            <p>{{ __('Nitto Project') }}</p>
                         </li>
                         <li class="prj-link">
                             <span><i class="fa-brands fa-html5 icn"></i></span>

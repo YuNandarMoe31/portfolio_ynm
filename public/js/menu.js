@@ -111,3 +111,15 @@ $(document).ready(function () {
   });
 });
 
+// dropdown menu
+window.onclick = function (event) {
+  if (!event.target.matches('.dropdown-btn')) {
+    var dropdowns = document.getElementsByClassName('dropdown-menu');
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.style.maxHeight === '300px') { // Make sure this value matches the max-height set in the CSS
+        openDropdown.style.maxHeight = '0';
+      }
+    }
+  }
+};

@@ -27,7 +27,7 @@
             </ul>
             <div class="about-me">
                 <h2 class="sec-title wow bounce" data-wow-duration="2s" data-wow-delay="1s">
-                    Welcome to my Portfolio!
+                    {{ __('Welcome') }}
                 </h2>
                 <p class="sec-txt">
                     My name is Yu Nandar Moe <br>
@@ -38,6 +38,17 @@
                 </p>
             </div>
         </div>
-
     </section>
+
+    <!-- about Sec -->
+    <x-about />
+
+    <!-- educaiton Sec -->
+    <x-education class="sp" />
+
+    <!-- services Sec -->
+    <x-services />
+
+    <!-- experiences Sec -->
+    <x-experiences />
 </x-layout>

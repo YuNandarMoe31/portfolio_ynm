@@ -18,6 +18,18 @@
                 <li><a href="#services" class="js-anchor-link">Services</a></li>
                 <li><a href="#experiences" class="js-anchor-link">Experiences</a></li>
                 <li><a href="#contact" class="js-anchor-link">Contact</a></li>
+                <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-btn dropdown-toggle d-none" type="button" data-bs-toggle="dropdown">{{ __('Language') }}</a>
+                        <div class="dropdown-menu d-none">
+                          <a href="/lang/en">{{ Lang::get('English') }}</a>
+                          <a href="/lang/jp">{{ Lang::get('Japanese') }}</a>
+                        </div>
+                        <div class="dropdown-menu-sp d-block">
+                            <a href="/lang/en"><img src="img/img_uk.png" alt="UK Flag">&nbsp;&nbsp;&nbsp;</a>
+                            <a href="/lang/jp">&nbsp;<img src="img/img_jp.png" alt="Japan Flag"></a>
+                        </div>
+
+                </li>
             </ul>
             <ul class="social-link d-block">
                 <li><a href="https://www.facebook.com/profile.php?id=100011055373606&mibextid=LQQJ4d"><i class="fa-brands fa-facebook icn"></i></a></li>

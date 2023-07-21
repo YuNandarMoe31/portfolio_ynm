@@ -76,36 +76,6 @@ function smoothScroll() {
 };
 smoothScroll();
 
-// experiences slide
-$('.center').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  dots: true,
-  arrows: false,
-  responsive: [
-    {
-      breakpoint: 1230,
-      settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: '40px',
-        slidesToShow: 2
-      }
-    },
-    {
-      breakpoint: 640,
-      settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: '40px',
-        slidesToShow: 1,
-        dots: false
-      }
-    }
-  ]
-});
-
 // wow animation
 new WOW().init();
 

@@ -6,7 +6,8 @@
 }
 
 body {
-    font-family: "Open Sans, serif";
+    /* font-family: "Open Sans, serif"; */
+    font-family: 'Zen Maru Gothic', sans-serif;
     background-color: #fff7f7;
     overflow-x: hidden;
 }

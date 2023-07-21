@@ -10,7 +10,7 @@
                         <img class="profile-pic" src="img/img_profile01.JPG" alt="Profile Image">
                         <h2>
                             <span class="name">Yu Nandar Moe</span>
-                            <span class="position">Web Developer</span>
+                            {{-- <span class="position">Web Developer</span> --}}
                         </h2>
                         <ul class="profile-txt">
                             <li>
@@ -53,19 +53,19 @@
             <div class="about-txt pc wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s">
                 <ul>
                     <li>
-                        <p class="title">Name</p>
-                        <p class="data">Yu Nandar Moe</p>
+                        <p class="title">{{ __('Name Title') }}</p>
+                        <p class="data">{{ __('Yu Nandar Moe') }}</p>
                     </li>
                     <li>
-                        <p class="title">Birthdate</p>
+                        <p class="title">{{ __('Birthdate') }}</p>
                         <p class="data">1998/12/31</p>
                     </li>
                     <li>
-                        <p class="title">Email</p>
+                        <p class="title">{{ __('Email') }}</p>
                         <p class="data"><a href="mailto:yunandarmoe31@gmail.com">yunandarmoe31@gmail.com</a></p>
                     </li>
                     <li>
-                        <p class="title">Phone</p>
+                        <p class="title">{{ __('Phone') }}</p>
                         <p class="data"><a href="tel:+95943184522">+95943184522</a></p>
                     </li>
                 </ul>

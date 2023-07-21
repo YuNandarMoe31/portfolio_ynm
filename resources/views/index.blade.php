@@ -38,6 +38,17 @@
                 </p>
             </div>
         </div>
-
     </section>
+
+    <!-- about Sec -->
+    <x-about />
+
+    <!-- educaiton Sec -->
+    <x-education class="sp" />
+
+    <!-- services Sec -->
+    <x-services />
+
+    <!-- experiences Sec -->
+    <x-experiences />
 </x-layout>

@@ -20,14 +20,6 @@
 
     {{ $slot }}
 
-    <x-about />
-
-    <x-education class="sp" />
-
-    <x-services />
-
-    <x-experiences />
-
     <x-contact />
 
     <x-footer />

@@ -1,5 +1,9 @@
 <x-layout>
-    <div class="inner">
+    {{-- <x-slot name="title">
+        <title>All blogs</title>
+    </x-slot>
+     --}}
+    {{-- <div class="inner">
         <h2>index</h2>
-    </div>
+    </div> --}}
 </x-layout>

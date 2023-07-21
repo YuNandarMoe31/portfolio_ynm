@@ -19,6 +19,10 @@
     
     {{ $slot }}
 
+    <x-contact />
+    
+    <x-footer />
+
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.js"></script>

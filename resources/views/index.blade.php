@@ -30,11 +30,6 @@
                     Welcome to my portfolio
                 </h2>
                 <p class="sec-txt">
-                    {{-- My name is Yu Nandar Moe <br>
-                    I lives in Yangon with my family <br>
-                    My favorite things to do are painting <span><i class="fas fa-paint-brush symbol"></i></span> and
-                    listening music <span><i class="fa-solid fa-music symbol"></i></span><br>
-                    "Difficulties are the door of success" <span><i class="fa-solid fa-wand-sparkles symbol"></i></span> --}}
                     {{ __('Name') }}<br>
                     {{ __('Place') }}<br>
                     {{ __('Favorite') }}<br>

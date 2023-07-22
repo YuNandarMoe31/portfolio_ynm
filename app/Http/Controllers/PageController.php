@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
 
-class AboutController extends Controller
+class PageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -12,6 +13,6 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('page.about-page');
+        return view("pages.about-page");
     }
 }

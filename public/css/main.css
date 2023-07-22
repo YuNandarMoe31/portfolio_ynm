@@ -7,7 +7,7 @@
 
 body {
     /* font-family: "Open Sans, serif"; */
-    font-family: 'Zen Maru Gothic', sans-serif;
+    font-family: "Zen Maru Gothic", sans-serif;
     background-color: #fff7f7;
     overflow-x: hidden;
 }
@@ -122,11 +122,32 @@ nav .menu-list li a:hover,
 
 .dropdown-menu a {
     display: block;
-    padding: 18px;
+    padding: 18px 34px;
+    position: relative;
 }
 
 .dropdown-menu a:hover {
     background-color: #f1f1f1;
+}
+
+.dropdown-menu .eng::before,
+.dropdown-menu .jap::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    left: 8px;
+}
+
+.dropdown-menu .eng::before {
+    background: url(../img/img_uk.png);
+    background-size: contain;
+}
+
+.dropdown-menu .jap::before {
+    background: url(../img/img_jp.png);
+    background-size: contain;
 }
 
 @media (max-width: 960px) {
@@ -145,11 +166,15 @@ nav .menu-list li a:hover,
     nav .menu-list {
         font-size: 14px;
     }
+
+    .dropdown-menu {
+        right: 0;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
     .d-none {
-        display: none!important;
+        display: none !important;
     }
 
     .d-block {
@@ -166,12 +191,12 @@ nav .menu-list li a:hover,
     }
 
     .dropdown-menu-sp {
-      display: flex;
+        display: flex;
     }
 
     .dropdown-menu-sp img {
-      width: 30px;
-      height: 30px;
+        width: 30px;
+        height: 30px;
     }
 
     .sec-txt {

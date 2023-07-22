@@ -21,8 +21,8 @@
                 <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-btn dropdown-toggle d-none" type="button" data-bs-toggle="dropdown">Language</a>
                         <div class="dropdown-menu d-none">
-                          <a href="/lang/en">{{ Lang::get('English') }}</a>
-                          <a href="/lang/jp">{{ Lang::get('Japanese') }}</a>
+                          <a href="/lang/en" class="eng">{{ Lang::get('English') }}</a>
+                          <a href="/lang/jp" class="jap">{{ Lang::get('Japanese') }}</a>
                         </div>
                         <div class="dropdown-menu-sp d-block">
                             <a href="/lang/en"><img src="img/img_uk.png" alt="UK Flag">&nbsp;&nbsp;&nbsp;</a>

@@ -4,12 +4,12 @@
         <h2 class="sec-title02">Contact</h2>
         <div class="contact-txt">
             <p>
-                Thank you for taking the time to see this to the end.<br>
-                I would like to meet you and talk with you.<br><br>
-                I look forward to hearing from you.
+                {{ __('Thank You') }}<br>
+                {{ __('Meet You') }}<br><br>
+                {{ __('Look Forward To') }}
             </p>
             <div class="contact-btn">
-                <a href="mailto:yunandarmoe31@gmail.com" class="arrow">Email<span><i
+                <a href="mailto:yunandarmoe31@gmail.com" class="arrow">{{ __('Email') }}<span><i
                             class="fa-solid fa-square-envelope"></i></span></a>
             </div>
         </div>

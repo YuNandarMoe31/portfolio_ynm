@@ -84,6 +84,11 @@ return [
 
     'locale' => 'en',
 
+    'available_locales' => [
+        'jp',
+        'en',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -190,8 +195,8 @@ return [
     |
     */
 
-    'aliases' => Facade::defaultAliases()->merge([
-        // ...
-    ])->toArray(),
+    'aliases' => [
+        'Lang' => Illuminate\Support\Facades\Lang::class,
+    ]
 
 ];

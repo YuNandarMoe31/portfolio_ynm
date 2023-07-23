@@ -12,9 +12,9 @@
                             {{-- <i class="fa-solid fa-camera"></i> --}}
                         </a>
                         <div class="profile-info clearFix">
-                            <a href="#" class="profile-photo modal-toggle">
+                            <a href="javascript:void(0)" class="profile-photo modal-toggle">
                                 @if($imageData)
-                                <img class="profile-pic" src="{{ url('upload/image'. $imageData->image) }}" alt="Profile Image">
+                                <img class="profile-pic" src="{{ url('upload/image/'. $imageData->image) }}" alt="Profile Image">
                                 <i class="fa-solid fa-camera"></i>
                                 @else
                                 <img class="profile-pic" src="img/img_profile01.JPG" alt="Profile Image">

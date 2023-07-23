@@ -42,9 +42,7 @@ class PageController extends Controller
             $data['image']= $imagename;
         }
 
-        $data = Image::create([
-            'image' => '/' . $imagename,
-        ]);
+        $data->save();
         
         return redirect()->back();
     }

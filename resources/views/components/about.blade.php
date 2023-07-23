@@ -1,19 +1,16 @@
-<!-- about sec -->
+{{-- <!-- about sec -->
 <section id="about" class="about-sec">
     <div class="inner">
         <h2 class="sec-title02">About Me</h2>
         <div class="about-inner">
             <div class="about-img wow fadeInLeft" data-wow-duration="2s">
-               <a href="{{ route("about") }}">
+               <a href="{{ route('about') }}">
                     <div class="profile-card text-center">
                         <img class="profile-cover" src="img/img_cover.jpg" alt="Profil Cover">
                         <div class="profile-info">
-                            <img class="profile-pic" src="img/img_profile01.JPG" alt="Profile Image">
+                            <img class="profile-pic" src="img/img_profile01.JPG" alt="Profile Image">                            
                             <h2>
                                 <span class="name">Yu Nandar Moe</span>
-                                {{-- @if()
-                                    <span class="position">{{ __('Yu Nandar Moe') }}</span>
-                                @endif --}}
                             </h2>
                             <ul class="profile-txt">
                                 <li>
@@ -37,19 +34,6 @@
                                     <span class="profile-icn">Single</span>
                                 </li>
                             </ul>
-                            {{-- <ul class="social-link">
-                                <li>
-                                    <a href="https://twitter.com/haru_ko_chan31?s=20"><i
-                                            class="fa-brands fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="mailto:yunandarmoe31@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"><i
-                                            class="fa-brands fa-linkedin"></i></a>
-                                </li>
-                            </ul> --}}
                         </div>
                     </div>
                </a>
@@ -107,4 +91,4 @@
         </div>
     </div>
     <script src="js/menu.js"></script>
-</section>
+</section> --}}

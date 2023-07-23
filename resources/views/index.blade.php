@@ -40,7 +40,8 @@
     </section>
 
     <!-- about Sec -->
-    <x-about />
+    {{-- <x-about /> --}}
+    @include('pages.about-page')
 
     <!-- educaiton Sec -->
     <x-education class="sp" />

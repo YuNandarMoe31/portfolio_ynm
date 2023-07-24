@@ -994,3 +994,20 @@ label.label input[type="file"] {
         padding: 15px;
     }
 }
+
+/* download file style */
+.download-file {
+    float: right;
+    margin-top: 30px;
+}
+
+.download-file a {
+    padding: 10px;
+    background-color: #cf7996;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.download-file a:hover {
+    background-color: #e29fb6;
+}

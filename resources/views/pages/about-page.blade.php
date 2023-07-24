@@ -127,7 +127,9 @@
                 </div>
             </div>
         </form>
-
+        <div class="download-file">
+            <a href="{{ route('download') }}">Download CV Form</a>
+        </div>
     </div>
     <script src="js/menu.js"></script>
 </section>

@@ -64,18 +64,18 @@
 //         $('body, html').animate({ scrollTop: scrollTo + 'px' }, 800);
 //     }
 // });
-function smoothScroll() {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
+// function smoothScroll() {
+//   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+//     anchor.addEventListener('click', function (e) {
+//       e.preventDefault();
 
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
-};
-smoothScroll();
+//       document.querySelector(this.getAttribute('href')).scrollIntoView({
+//         behavior: 'smooth'
+//       });
+//     });
+//   });
+// };
+// smoothScroll();
 
 // wow animation
 new WOW().init();
@@ -123,3 +123,41 @@ window.onclick = function (event) {
     }
   }
 };
+
+// modal box 
+$('.modal-toggle').on('click', function (e) {
+  e.preventDefault();
+  $('.modal').toggleClass('is-visible');
+});
+// $('.modal-toggle').on('click', function (e) {
+//   e.preventDefault();
+//   var targetModalId = $(this).data('target');
+//   $('#' + targetModalId).toggleClass('is-visible');
+// });
+// $('.modal-toggle').on('click', function (e) {
+//   e.preventDefault();
+//   const targetModalId = $(this).data('target');
+//   $(`.modal[data-modal-id="${targetModalId}"]`).toggleClass('is-visible');
+// });
+
+// preview image
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      $('#image-preview').attr('src', e.target.result).show();
+    }
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+
+$('#image-input').change(function () {
+  readURL(this);
+  $(".select-txt").addClass("txt-remove");
+});
+
+
+
+
